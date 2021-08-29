@@ -1,3 +1,52 @@
-dev n1 = 2;
-dev n2 = 6;
-println(x+y); 
+class Calculator {
+  static void main(String[] args) {
+    def x = 5;
+    def y = 10;
+    def z = 15;
+    
+    // Addition
+    println(x+y);
+    println(y+z);
+    println(x+z);
+    
+    // Multiplication
+    println(x*y);
+    println(y*z);
+    println(x*z);
+    
+    // Division
+    println(x/y);
+    println(y/z);
+    println(x/z);
+    
+    // Subtraction
+    println(x-y);
+    println(y-z);
+    println(x-z);
+    
+    // Pre - Increment
+    println(++x);
+    println(++y);
+    println(++z);
+    
+    // Post - Increment
+    println(x++);
+    println(y++);
+    println(z++);
+    
+    // Pre - Decrement
+    println(--x);
+    println(--y);
+    println(--z);
+    
+    // Post - Decrement
+    println(x--);
+    println(y--);
+    println(z--);
+    
+    // Modulus
+    println(x%y);
+    println(y%z);
+    println(x%z);
+  }
+}
